@@ -10,12 +10,12 @@ class Car(ABC, Serviceable):
     def needs_service(self):
         pass
 
-class Engine:        
+class Engine(ABC):        
     @abstractmethod
     def needs_service(self):
         pass
 
-class Battery: 
+class Battery(ABC): 
     @abstractmethod
     def needs_service(self):
         pass
