@@ -9,8 +9,8 @@ class Octoprime(Tire):
 
     def needs_service(self,arr):
         sum = 0
-        for i in arr
+        for i in arr:
           sum += i
-        if sum >= 3
+        if sum >= 3:
           return True
         return False
