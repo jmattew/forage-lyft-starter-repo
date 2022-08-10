@@ -8,7 +8,7 @@ class Carrigan(Tire):
         self.arr = arr
 
     def needs_service(self,arr):
-        for i in arr
+        for i in arr:
           if i >= 0.9:
             return True
         return False
